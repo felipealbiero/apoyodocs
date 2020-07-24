@@ -3,8 +3,8 @@
 @section('content')
 <style>
             html, body {
-                background-color: #2AB573;
-                color: #152F53;
+                background-color: #152F53;
+                color: white;
                 font-family: 'Provicali Regular';
                 font-weight: 200;
                 height: 100vh;
@@ -15,7 +15,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="form">
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
