@@ -4,19 +4,20 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="{{ asset('/css/estilo.css') }}" rel="stylesheet"> -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <title>APOYO DOCS</title>
+          <title>APOYO DOCS</title>
 
         <!-- Fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
             html, body {
                 background-color: #152F53;
                 color: white;
-                font-family: 'Provicali Regular';
+                /* font-family: 'Provicali Regular'; */
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
