@@ -1,9 +1,16 @@
-/* @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 html, body {
     background-color: #152F53;
-    color: white;
     font-family: 'Provicali Regular';
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.teste {
+    background-color: #152F53;
     font-weight: 200;
     height: 100vh;
     margin: 0;
