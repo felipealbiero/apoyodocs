@@ -4,15 +4,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 @section('content')
-<style>
-            html, body {
-                background-color: #152F53;
-                font-family: 'Provicali Regular';
-                
-                
-            }
-            
-        </style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -64,8 +56,8 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                            <div class="col-md-10 offset-md-4">
+                                <button type="submit" class=" btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
 

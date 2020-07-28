@@ -50,4 +50,11 @@ html, body {
 
 button{
     margin: 0 15px;
+    color: #152F53;
+}
+
+.btn-primary{
+    background-color: #152F53 !important;
+    color: #152F53;
+
 }
