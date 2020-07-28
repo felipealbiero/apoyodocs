@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+        <nav class="navbar navbar-expand-md btn-lg navbar-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                 <img height="100" src={{asset('/img/banner/blueLogo.jpg')}}>
@@ -38,7 +38,7 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="btn btn-light" class="navbar-nav ml-auto">
+                    <ul class="btn btn-light navbar-text ml-auto">
                         <!-- Authentication Links -->   
                         @guest
                             <li class="nav-item">

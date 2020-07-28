@@ -1,9 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html, body {
     background-color: #152F53;
-    color: white;
-    font-family: 'Provicali Regular';
     font-weight: 200;
     height: 100vh;
     margin: 0;
@@ -38,7 +36,6 @@ html, body {
 }
 
 .links > a {
-    color: white;
     padding: 0 25px;
     font-size: 20px;
     font-weight: 600;
@@ -49,4 +46,8 @@ html, body {
 
 .m-b-md {
     margin-bottom: 30px;
+}
+
+button{
+    margin: 0 15px;
 }
