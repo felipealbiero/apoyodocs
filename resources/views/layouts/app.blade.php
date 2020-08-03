@@ -23,7 +23,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md btn-lg navbar-light shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/home') }}">
+                <a class="navbar-brand" href="{{ url('/') }}">
                 <img height="100" src={{asset('/img/banner/blueLogo.jpg')}}>
                     <!-- {{ config('app.name', 'Laravel') }} -->
                 </a>
@@ -67,6 +67,7 @@
                                     </form>
                                 </div>
                             </li>
+                            
                         @endguest
                     </ul>
                 </div>

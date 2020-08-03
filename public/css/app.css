@@ -3,3 +3,7 @@
 html, body {
     background-color: #152F53
 }
+
+li {
+    list-style-type: none;
+  }
