@@ -25,8 +25,16 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
+  <form action="{{ route('upload') }}" method="post" enctype="multipart/form-data">
+@csrf
+<input type="file" name="arquivo">
+
+<button type="submit">Enviar Arquivo</button>
+
+</form>
 </div>
         </div>
     </div>
